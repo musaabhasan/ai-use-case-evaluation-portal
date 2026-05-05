@@ -1,0 +1,86 @@
+{
+  "slug": "ai-use-case-evaluation-portal",
+  "title": "AI Use Case Evaluation Portal",
+  "short_name": "AIUCEP",
+  "tagline": "A governance portal for prioritizing AI use cases with security, privacy, ethics, value, and feasibility evidence.",
+  "book": {
+    "title": "Artificial Intelligence for Security Culture Transformation",
+    "author": "Musaab Hasan",
+    "url": "https://www.amazon.com/Artificial-Intelligence-Security-Culture-Transformation/dp/3639876954",
+    "alignment": "Appendix B: AI Implementation Resources",
+    "theme": "AI use case evaluation, data readiness, ethical controls, security value, and implementation feasibility."
+  },
+  "dimensions": [
+    {
+      "key": "strategic_alignment",
+      "label": "Strategic Alignment",
+      "description": "Measures fit with security culture and business outcomes.",
+      "weight": 1.15
+    },
+    {
+      "key": "value_potential",
+      "label": "Value Potential",
+      "description": "Assesses expected risk reduction, learning improvement, or efficiency gain.",
+      "weight": 1.2
+    },
+    {
+      "key": "data_readiness",
+      "label": "Data Readiness",
+      "description": "Measures quality, availability, minimization, and governance of required data.",
+      "weight": 1.25
+    },
+    {
+      "key": "implementation_feasibility",
+      "label": "Implementation Feasibility",
+      "description": "Assesses technical, operational, and integration feasibility.",
+      "weight": 1.0
+    },
+    {
+      "key": "privacy_ethics",
+      "label": "Privacy and Ethics",
+      "description": "Tracks fairness, transparency, consent, explainability, and oversight.",
+      "weight": 1.25
+    },
+    {
+      "key": "operational_resilience",
+      "label": "Operational Resilience",
+      "description": "Measures monitoring, fallback, accountability, and support readiness.",
+      "weight": 1.05
+    }
+  ],
+  "workflows": [
+    "Register a proposed AI use case with owner, purpose, data needs, and expected value.",
+    "Score the use case across strategic, technical, ethical, and operational dimensions.",
+    "Route high-value and high-risk use cases for deeper governance review.",
+    "Track approved pilots through evidence, controls, and post-implementation outcomes."
+  ],
+  "initiatives": [
+    {
+      "title": "AI use case intake workflow",
+      "owner": "Governance",
+      "status": "active",
+      "priority": "high",
+      "impact_area": "strategic_alignment"
+    },
+    {
+      "title": "Data readiness checklist",
+      "owner": "Data Office",
+      "status": "active",
+      "priority": "high",
+      "impact_area": "data_readiness"
+    },
+    {
+      "title": "Ethical review board cadence",
+      "owner": "Risk and Compliance",
+      "status": "planned",
+      "priority": "high",
+      "impact_area": "privacy_ethics"
+    }
+  ],
+  "evidence_examples": [
+    "Assessment score movement with dated evidence.",
+    "Documented behavior observations from simulations or operational workflows.",
+    "Leadership review notes, action owners, and completed improvement tasks."
+  ],
+  "accent": "#4f46e5"
+}
