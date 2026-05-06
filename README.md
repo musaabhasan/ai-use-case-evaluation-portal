@@ -1,4 +1,4 @@
-﻿# AI Use Case Evaluation Portal
+# AI Use Case Evaluation Portal
 
 A governance portal for prioritizing AI use cases with security, privacy, ethics, value, and feasibility evidence.
 
